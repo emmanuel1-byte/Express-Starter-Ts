@@ -9,6 +9,10 @@ This is an Express js Starter project for building REST API in Typescript
 
   ` git clone <https://github.com/HilaryEmmanuel/Express-Starter-Ts.git> `
 
+- make a new directory and copy Express-Starter-Ts to your directory
+  - windows💻
+     ` xcopy /E /I "Express-Starter-Ts" "new directory" `
+
 - Install dependencies
   
   ` cd <Express-js Starter-Ts> `
