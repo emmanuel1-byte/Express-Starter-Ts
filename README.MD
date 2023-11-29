@@ -10,7 +10,7 @@ This is an Express js Starter project for building REST API in Javascript
   ` git clone --depth=1 <https://github.com/HilaryEmmanuel/Express-Starter-Ts.git> `
 
 - Install dependencies
-  ` cd <Express-js Starter-Ts> `
+  ` cd <Express-js Starter-Js> `
   ` rm -rf .git `
   ` npm install `
 
