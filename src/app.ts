@@ -27,6 +27,14 @@ app.get('/', (req: Request, res: Response)=>{
     
 })
 
+app.use(function(err: any, req: Request, res: Response){
+    res.locals.message = err.message
+    res.locals.error = req.app.get('env') === 'development' ? err : {}
+
+    res.status(err.s || 500)
+    res.json(err)
+})
+
 app.get('*', (req: Request, res: Response)=>{
     respond(res, 400, 'Endpoint does not exist')
 })

@@ -36,6 +36,6 @@ async function databaseConnection() {
 //Run the server
 server.listen(port, (() => {
     console.clear()
-    console.log(`Express API is running on port ${port} 💪😁....`)
+    console.log(`Express API is running on port ${port}`)
     databaseConnection()
 }))
