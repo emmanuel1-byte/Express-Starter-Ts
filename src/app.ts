@@ -1,6 +1,6 @@
 import express from 'express'
 import { Request, Response } from 'express'
-import respond from './middlewares/respond'
+import respond from './utils/respond'
 import cors from 'cors'
 import helmet from 'helmet'
 import cookieParser from 'cookie-parser'
