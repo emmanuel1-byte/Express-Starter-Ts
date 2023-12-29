@@ -18,7 +18,7 @@ function onError(error: NodeJS.ErrnoException) {
 }
 
 
-//Event Emmitter that listens to error Event
+//Event listener that listens and handles the  error Event
 server.on('error', onError)
 
 //Database connection
